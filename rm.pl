@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
-# this script sends /quote REMOVE channel nickname to the server, to remove someone. Works on Freenode.
+# this script sends /quote REMOVE channel nickname to the server, to remove someone someone from a channel. Works on Freenode.
+# using this will ensure the user cannot auto-rejoin, because the user isn't being kicked but being removed by the server.
 # it accepts nickname inputs. If no nickname is provided, it'll stop executing.
 
 use Data::Dumper;

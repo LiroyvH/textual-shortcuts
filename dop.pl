@@ -22,7 +22,7 @@ print "nick has invalid characters\n" and exit if $nick !~ /^[A-Za-z0-9]*$/;
 
 # sanity check the channel name
 print "chan is too long\n" and exit if length( $chan ) > 20;
-print "chan has invalid characters\n" and exit if $chan !~ /^[-#A-Za-z0-9]*$/;
+print "chan has invalid characters\n" and exit if $chan !~ /^\#[-A-Za-z0-9]+$/;
 
 my $out = "/cs DEOP $chan";
 $out .= " $nick" if $nick;

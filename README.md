@@ -7,4 +7,4 @@ Once it's in the right folder and has the right permissions, you can simply use 
 eg: cop.pl = /cop. (Or /cop nickname)
 rm.pl = /rm nickname
 
-I'n not much of a programmer; thanks so much to Jim for helping me out with this!
+I'n not much of a programmer, just some fun to make life easier... Thanks so much to Jim for helping me out with this!

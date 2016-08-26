@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 # this script sends /cs DEOP <channelname> to the server.
-# it accepts nickname inputs. If no nickname is provided, it'll use your own username.
+# it accepts nickname inputs. If no nickname is provided, it'll execute it for your own nickname and gives you -o.
 
 use Data::Dumper;
 $Data::Dumper::Indent = 1;
